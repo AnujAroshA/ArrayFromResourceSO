@@ -12,9 +12,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let result : Array = linesFromResource(fileName: "DataSet")
+        print(result.shuffled().prefix(Int.random(in: 0 ..< result.count)))
     }
 
-
+    func linesFromResource(fileName: String) -> [String] {
+        
+        guard let path = Bundle.main.path(forResource: fileName, ofType: nil) else {
+            fatalError("Resource file for \(fileName) not found.")
+        }
+        do {
+            let content = try String(contentsOfFile: path, encoding: String.Encoding.utf8)
+            return content.components(separatedBy: "\n")
+        } catch let error {
+            fatalError("Could not load strings from \(path): \(error).")
+        }
+    }
 }
 

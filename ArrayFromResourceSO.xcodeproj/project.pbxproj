@@ -12,6 +12,7 @@
 		63AC1D4A231CD3D2007C5D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AC1D48231CD3D2007C5D49 /* Main.storyboard */; };
 		63AC1D4C231CD3D3007C5D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AC1D4B231CD3D3007C5D49 /* Assets.xcassets */; };
 		63AC1D4F231CD3D3007C5D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AC1D4D231CD3D3007C5D49 /* LaunchScreen.storyboard */; };
+		63AC1D57231CD5F4007C5D49 /* DataSet in Resources */ = {isa = PBXBuildFile; fileRef = 63AC1D56231CD5F4007C5D49 /* DataSet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		63AC1D4B231CD3D3007C5D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63AC1D4E231CD3D3007C5D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63AC1D50231CD3D3007C5D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AC1D56231CD5F4007C5D49 /* DataSet */ = {isa = PBXFileReference; lastKnownFileType = text; path = DataSet; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		63AC1D38231CD3D2007C5D49 = {
 			isa = PBXGroup;
 			children = (
+				63AC1D56231CD5F4007C5D49 /* DataSet */,
 				63AC1D43231CD3D2007C5D49 /* ArrayFromResourceSO */,
 				63AC1D42231CD3D2007C5D49 /* Products */,
 			);
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63AC1D4F231CD3D3007C5D49 /* LaunchScreen.storyboard in Resources */,
+				63AC1D57231CD5F4007C5D49 /* DataSet in Resources */,
 				63AC1D4C231CD3D3007C5D49 /* Assets.xcassets in Resources */,
 				63AC1D4A231CD3D2007C5D49 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7F24G92642;
 				INFOPLIST_FILE = ArrayFromResourceSO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7F24G92642;
 				INFOPLIST_FILE = ArrayFromResourceSO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
